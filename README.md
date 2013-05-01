@@ -22,7 +22,6 @@ ClojureWerkz Scrypt is a young project but it builds on a Java implementation of
 Scrypt that has been around for a couple of years.
 
 
-
 ## Artifacts
 
 Scrypt artifacts are [released to Clojars](https://clojars.org/clojurewerkz/scrypt). If you are using Maven, add the following repository
