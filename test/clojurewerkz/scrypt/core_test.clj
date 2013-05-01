@@ -19,7 +19,7 @@
 (deftest test-encrypt-and-check
   (let [pwd    "secret"
         hashed (sc/encrypt pwd 16384 8 1)]
-    (is (sc/check pwd hashed))
+    (is (sc/verify pwd hashed))
     (dotimes [i 50]
       (let [uid (str (UUID/randomUUID))]
         (is (not (sc/verify uid hashed)))))))
