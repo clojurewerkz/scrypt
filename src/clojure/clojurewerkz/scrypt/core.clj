@@ -33,7 +33,7 @@
   [^String s ^long n ^long r ^long p]
   (SCryptUtil/scrypt s n r p))
 
-(defn ^boolean verify
+(defn verify
   "Verifies a value against a hash produced by scrypt"
   [^String candidate ^String hash]
   (SCryptUtil/check candidate hash))
