@@ -1,7 +1,7 @@
 (defproject clojurewerkz/scrypt "1.1.0-SNAPSHOT"
   :description "A Clojure library for scrypt encryption"
   :dependencies [[org.clojure/clojure    "1.5.1"]
-                 [com.lambdaworks/scrypt "1.3.3"]]
+                 [com.lambdaworks/scrypt "1.4.0"]]
   :profiles {:1.3 {:dependencies [[org.clojure/clojure "1.3.0"]]}
              :1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
              :1.6 {:dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]]}
