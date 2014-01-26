@@ -78,6 +78,25 @@ cost. The values in the example above are optimal starting points for many appli
 See the [Scrypt paper](https://www.tarsnap.com/scrypt/scrypt.pdf)
 for a detailed information.
 
+### Native Scrypt Implementation
+
+It is possible to use a native implementation as of ClojureWerkz Scrypt `1.1.0`.
+From [Lambdaworks Scrypt documentation](https://github.com/wg/scrypt/blob/master/README):
+
+```
+  When the native library can be loaded it will be used instead of the pure
+  Java implementation. On a J2SE compliant JVM the native library will be
+  extracted from the jar and loaded, and on other VMs System.loadLibrary will
+  be called.
+
+  The system property "com.lambdaworks.jni.loader" may be set to override
+  the default native library loader with one of the following values:
+
+   * nil: refuse to load native libraries and revert to pure Java implementation
+   * jar: extract native library from jar and load with System.load
+   * sys: use System.loadLibrary, which may require java.library.path to be set
+```
+
 
 ## Supported Clojure Versions
 
