@@ -81,7 +81,7 @@ for a detailed information.
 
 ## Supported Clojure Versions
 
-scrypt is built from the ground up for Clojure 1.3 and up.
+scrypt requires Clojure 1.4+.
 
 
 ## Continuous Integration Status
