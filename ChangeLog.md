@@ -15,3 +15,7 @@ the default native library loader with one of the following values:
  * jar: extract native library from jar and load with System.load
  * sys: use System.loadLibrary, which may require java.library.path to be set
 ```
+
+## Clojure 1.3 Support Dropped
+
+Scrypt no longer officially supports Clojure 1.3.
