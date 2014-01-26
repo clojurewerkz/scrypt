@@ -38,7 +38,7 @@ definition to your `pom.xml`:
 
 With Leiningen:
 
-    [clojurewerkz/scrypt "1.0.0"]
+    [clojurewerkz/scrypt "1.1.0"]
 
 
 With Maven:
@@ -46,7 +46,7 @@ With Maven:
     <dependency>
       <groupId>clojurewerkz</groupId>
       <artifactId>scrypt</artifactId>
-      <version>1.0.0</version>
+      <version>1.1.0</version>
     </dependency>
 
 
