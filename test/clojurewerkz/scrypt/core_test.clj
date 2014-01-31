@@ -11,8 +11,8 @@
 ;; the License.
 
 (ns clojurewerkz.scrypt.core-test
-  (:require [clojurewerkz.scrypt.core :as sc])
-  (:use clojure.test)
+  (:require [clojurewerkz.scrypt.core :as sc]
+            [clojure.test :refer :all])
   (:import java.util.UUID))
 
 
