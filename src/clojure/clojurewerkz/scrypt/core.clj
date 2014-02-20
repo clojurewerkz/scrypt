@@ -29,7 +29,7 @@
    Arguments are:
 
    s (string): a string to encrypt
-   n (integer): CPU cost parameter (16834 is a good starting value)
+   n (integer): CPU cost parameter (16384 is a good starting value)
    r (integer): RAM cost parameter (8 is a good starting value)
    p (integer): parallelism parameter (1 is a good starting value)"
   [^String s ^long n ^long r ^long p]
