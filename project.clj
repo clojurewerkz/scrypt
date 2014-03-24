@@ -3,7 +3,7 @@
   :dependencies [[org.clojure/clojure    "1.5.1"]
                  [com.lambdaworks/scrypt "1.4.0"]]
   :profiles {:1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
-             :1.6 {:dependencies [[org.clojure/clojure "1.6.0-RC2"]]}
+             :1.6 {:dependencies [[org.clojure/clojure "1.6.0-RC4"]]}
              :master {:dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]]}
              :dev {:resource-paths ["test/resources"]
                    :plugins [[codox "0.6.6"]]
