@@ -18,8 +18,8 @@ To subscribe for announcements of releases, important changes and so on, please 
 
 ## Project Maturity
 
-ClojureWerkz Scrypt is a young project but it builds on a Java implementation of
-Scrypt that has been around for a couple of years.
+ClojureWerkz Scrypt is a fairly young project built on top of a Java
+implementation of Scrypt that has been around for a couple of years.
 
 
 ## Artifacts
