@@ -1,4 +1,4 @@
-(defproject clojurewerkz/scrypt "1.2.0"
+(defproject clojurewerkz/scrypt "1.3.0-SNAPSHOT"
   :description "A Clojure library for scrypt encryption"
   :dependencies [[org.clojure/clojure    "1.6.0"]
                  [com.lambdaworks/scrypt "1.4.0"]]
