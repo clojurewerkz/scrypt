@@ -1,3 +1,10 @@
+# Changes Between 1.1.0 and 1.2.0
+
+## Clojure 1.6
+
+The library now depends on Clojure 1.6.
+
+
 # Changes Between 1.0.0 and 1.1.0
 
 ## Lambdaworks Scrypt Upgrade
