@@ -6,7 +6,7 @@
              :1.5 {:dependencies [[org.clojure/clojure "1.5.1"]]}
              :master {:dependencies [[org.clojure/clojure "1.7.0-master-SNAPSHOT"]]}
              :dev {:resource-paths ["test/resources"]
-                   :plugins [[codox "0.6.6"]]
+                   :plugins [[codox "0.6.7"]]
                    :codox {:sources ["src/clojure"]
                            :output-dir "doc/api"}}}
   :aliases {"all" ["with-profile" "dev:dev,1.4:dev,1.5:dev,master"]}
